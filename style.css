@@ -1,4 +1,5 @@
-body {
+body 
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +11,8 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.container {
+.container 
+{
   background: rgba(255,255,255,0.3);
   padding: 20px;
   display: flex;
@@ -20,11 +22,13 @@ body {
   margin: 5px;
 }
 
-.heading {
+.heading 
+{
   font-size: 30px;
 }
 
-.input {
+.input 
+{
   padding: 10px 20px;
   font-size: 18px;
   background-color: rgba(255,255,255,0.4);
@@ -32,7 +36,8 @@ body {
   margin: 10px 0;
 }
 
-.btn {
+.btn 
+{
   background-color: rgba(255,255,255,0.4);
   border: none;
   padding: 10px 20px;
@@ -43,17 +48,20 @@ body {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover 
+{
   background-color: rgba(255, 160, 122, 0.3);
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
   transition: all 500ms ease;
 }
 
-.btn:active {
+.btn:active 
+{
   transform: scale(0.9);
 }
 
-.info-text {
+.info-text 
+{
   font-size: 20px;
   font-weight: 500;
 }
